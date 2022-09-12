@@ -1,0 +1,128 @@
+body {
+  background-color: rgb(41, 209, 125);
+  position: relative;
+}
+
+h1 {
+  font-family: "Architects Daughter", cursive;
+}
+.dark {
+  color: rgb(41, 209, 125);
+  background-color: #000;
+  height: 100vh;
+  position: absolute;
+  margin-top: 0px;
+  width: 100%;
+}
+.inputArea {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  margin-left: 40%;
+  margin-top: 30px;
+}
+.username {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 400px;
+  margin-left: 40%;
+}
+.title {
+  text-align: center;
+  font-size: 27px;
+  font-weight: bold;
+  font-family: "Architects Daughter", cursive;
+}
+.submit {
+  margin-left: 5px;
+  border-radius: 16px;
+  border: none;
+  width: 65px;
+  height: 30px;
+  color: #000;
+  font-size: 14px;
+  background-color: rgb(41, 209, 125);
+}
+.inputname {
+  width: 200px;
+  border-radius: 8px;
+  border: 1px solid gray;
+  box-shadow: 0 0 5pt 1.5pt #d3d3d3;
+  background-color: rgb(41, 209, 125);
+}
+.todotitle {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 45px;
+}
+.todobutton {
+  margin-left: 5px;
+  border-radius: 16px;
+  border: none;
+  width: 65px;
+  height: 30px;
+  font-size: 14px;
+  background-color: rgb(41, 209, 125);
+}
+.todoinput {
+  width: 300px;
+  border-radius: 8px;
+  border: 1px solid gray;
+  box-shadow: 0 0 5pt 1.5pt #d3d3d3;
+  background-color: rgb(41, 209, 125);
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 500px;
+  margin: auto;
+  align-items: center;
+}
+.todo {
+  margin-right: 40%;
+  margin-bottom: 10px;
+  font-size: 19px;
+  font-family: "Architects Daughter", cursive;
+}
+.delete {
+  margin-right: 5px;
+}
+ul {
+  list-style-type: none;
+}
+button {
+  cursor: pointer;
+  font-family: "Architects Daughter", cursive;
+}
+.done {
+  text-decoration: line-through;
+}
+.editbutton {
+  margin-left: 5px;
+  border-radius: 16px;
+  border: none;
+  width: 65px;
+  height: 30px;
+  font-size: 14px;
+  background-color: rgb(41, 209, 125);
+  margin-top: 15px;
+}
+.editinput {
+  width: 300px;
+  border-radius: 8px;
+  border: 1px solid gray;
+  box-shadow: 0 0 5pt 0.5pt #d3d3d3;
+  background-color: rgb(41, 209, 125);
+  margin-top: 15px;
+  font-size: 16px;
+}
+.edit {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  margin-left: 40%;
+  margin-top: 30px;
+}
