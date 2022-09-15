@@ -34,7 +34,7 @@ function InputArea(props) {
           placeholder="Create your list!"
           name="input"
         />
-        <button className="todobutton" onClick={onClick}>
+        <button style={{ display: input.content.length < 3 && "none" }} className="todobutton" onClick={onClick}>
           <span>Add</span>
         </button>
       </form>
